@@ -8,7 +8,7 @@ function Player({ open, toggleModal }) {
         <>
           { open &&  ( <Modal show={open} onHide={toggleModal}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Welcome To the Club</Modal.Title>
           </Modal.Header>
           <ReactPlayer
             url="https://www.youtube.com/watch?v=pX2LUvkiVeQ"

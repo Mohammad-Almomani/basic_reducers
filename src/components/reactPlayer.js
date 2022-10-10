@@ -14,7 +14,7 @@ function Player({ open, toggleModal }) {
             url="https://www.youtube.com/watch?v=pX2LUvkiVeQ"
             width="100%"
             playing={true}
-            volume={0.2}
+            volume={0.4}
             />
         
       </Modal> )

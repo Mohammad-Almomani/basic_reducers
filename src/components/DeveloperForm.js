@@ -77,7 +77,7 @@ function NewDevForm({ dispatch }) {
           value={devFavDrink}
         />
       </Form.Group>
-      <Button type="submit">Save</Button>
+      <Button style={{marginBottom: "2%"}} type="submit">Join the Club</Button>
     </Form>
   );
 }

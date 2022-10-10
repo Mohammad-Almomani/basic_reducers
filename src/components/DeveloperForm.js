@@ -18,7 +18,7 @@ function NewDevForm({ dispatch }) {
     setOpen(!open)
     setTimeout(() => {
       setOpen(false)
-    }, 7000)
+    }, 1000)
     };
 
   const handleSubmit = (e) => {
